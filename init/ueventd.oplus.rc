@@ -15,5 +15,8 @@
 # Charger
 /sys/class/oplus_chg/*  chg_enable             0660    system  system
 
+# NFC
+/dev/pn553      0660    nfc               nfc
+
 # WiFi
 firmware_directories /odm/etc/wifi/
