@@ -19,5 +19,8 @@
 /dev/block/bootdevice/by-name/oplusreserve1    0660    root    system
 /dev/block/bootdevice/by-name/oplusreserve4    0660    root    system
 
+# NFC
+/dev/pn553      0660    nfc               nfc
+
 # WiFi
 firmware_directories /odm/etc/wifi/ /mnt/vendor/persist/ /vendor/firmware_mnt/image/
