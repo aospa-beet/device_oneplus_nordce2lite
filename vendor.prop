@@ -40,6 +40,9 @@ debug.hwui.target_cpu_time_percent=30
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 
+# Media
+vendor.media.omx=0
+
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.debug.hal=0
