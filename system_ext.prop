@@ -1,2 +1,5 @@
+# Display
+persist.sys.brightness.low.gamma=true
+
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
