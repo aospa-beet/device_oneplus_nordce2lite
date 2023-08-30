@@ -1266,7 +1266,7 @@ vendor/lib64/com.qualcomm.mcx.linearmapper.so|785c149fe03b0a397752446168ebdbfd8d
 vendor/lib64/com.qualcomm.mcx.policy.mfl.so|d929c867d837368677047617c9a01e1f0f327d9b
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so|f556033c03507534067902ddbdc913fd4ce8418a
 vendor/lib64/hw/camera.qcom.so|1489e2df17d22f07477824f59e613507c0d271d8
-vendor/lib64/hw/com.qti.chi.override.so|7dfb3df2f4c6a0cb24030f6a132ae25ce647fc7b
+vendor/lib64/hw/com.qti.chi.override.so|08dc4db30dd59126bda2976fbc1d18f57beac123
 vendor/lib64/libOppoCentorStage.so|16eb5da5c607016d9a99426097479eeb753ffa62
 vendor/lib64/libRGBC.so|ced6aebc117b55f444e90caa689bdeb6d175c989
 vendor/lib64/libSonyIMX471RmscLibrary.so|eee34c1f29a14e542d906e36712436c1d877023d
