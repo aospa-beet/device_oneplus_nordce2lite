@@ -43,18 +43,18 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml \
-    $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina_qssi/audio_policy_configuration.xml \
+    $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi_qssi/audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/virtual_audio_policy_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/virtual_audio_policy_configuration.xml
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_platform_info.xml \
-    $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/audio_platform_info_intcodec.xml \
+    $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_platform_info_intcodec.xml \
     $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
-    $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/mixer_paths.xml \
+    $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/mixer_paths.xml \
     $(LOCAL_PATH)/configs/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml \
-    $(LOCAL_PATH)/configs/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/sound_trigger_mixer_paths.xml \
+    $(LOCAL_PATH)/configs/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_mixer_paths.xml \
     $(LOCAL_PATH)/configs/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_platform_info.xml \
-    $(LOCAL_PATH)/configs/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/sound_trigger_platform_info.xml
+    $(LOCAL_PATH)/configs/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_platform_info.xml
 
 PRODUCT_PACKAGES += \
     libstdc++_vendor
@@ -147,22 +147,19 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAOnePlus9SeriesFrameworks \
-    AOSPAOnePlus9SeriesSystemUI \
-    OnePlus9Frameworks \
-    OnePlus9SeriesCarrierConfig \
-    OnePlus9SeriesFrameworks \
-    OnePlus9SeriesSettings \
-    OnePlus9SeriesSystemUI \
-    OnePlus9Settings \
-    OnePlus9SettingsProvider \
-    OnePlus9SystemUI
+    AOSPANordCE2LiteFrameworks \
+    AOSPANordCE2LiteSystemUI \
+    NordCE2LiteFrameworks \
+    NordCE2LiteCarrierConfig \
+    NordCE2LiteSettings \
+    NordCE2LiteSettingsProvider \
+    NordCE2LiteSystemUI
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Platform
-TARGET_BOARD_PLATFORM := lahaina
+TARGET_BOARD_PLATFORM := holi
 
 # QTEE
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -211,7 +208,7 @@ PRODUCT_COPY_FILES += \
     hardware/oplus/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 PRODUCT_PACKAGES += \
-    android.hardware.sensors-service.oneplus9-multihal \
+    android.hardware.sensors-service.nordce2lite-multihal \
     libsensorndkbridge \
     sensors.oplus
 
@@ -236,7 +233,7 @@ PRODUCT_PACKAGES += \
     update_verifier
 
 # Vendor
-$(call inherit-product, vendor/oneplus/oneplus9/oneplus9-vendor.mk)
+$(call inherit-product, vendor/oneplus/nordce2lite/nordce2lite-vendor.mk)
 
 # Vibrator
 PRODUCT_PACKAGES += \
