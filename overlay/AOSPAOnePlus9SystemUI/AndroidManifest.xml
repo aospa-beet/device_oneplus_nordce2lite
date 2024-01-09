@@ -14,12 +14,10 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.aospa.systemui.oneplus9">
+    package="co.aospa.systemui.nordce2lite">
 
     <overlay
         android:isStatic="true"
         android:priority="800"
-        android:requiredSystemPropertyName="ro.boot.prj_version"
-        android:requiredSystemPropertyValue="12"
         android:targetPackage="com.android.systemui" />
 </manifest>

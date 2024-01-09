@@ -43,27 +43,17 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml \
-    $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina_qssi/audio_policy_configuration.xml
+    $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi_qssi/audio_policy_configuration.xml
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio/oneplus9/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_platform_info.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/audio_platform_info_intcodec.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/mixer_paths.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/sound_trigger_mixer_paths.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_platform_info.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/sound_trigger_platform_info.xml
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio/oneplus9pro/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/overlay/prj_11/odm/etc/audio_platform_info.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9pro/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/overlay/prj_11/vendor/etc/audio/sku_lahaina/audio_platform_info_intcodec.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9pro/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/overlay/prj_11/odm/etc/mixer_paths.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9pro/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/overlay/prj_11/vendor/etc/audio/sku_lahaina/mixer_paths.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9pro/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/overlay/prj_11/odm/etc/sound_trigger_mixer_paths.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9pro/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/overlay/prj_11/vendor/etc/audio/sku_lahaina/sound_trigger_mixer_paths.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9pro/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_ODM)/overlay/prj_11/odm/etc/sound_trigger_platform_info.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9pro/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/overlay/prj_11/vendor/etc/audio/sku_lahaina/sound_trigger_platform_info.xml
+    $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_platform_info.xml \
+    $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_platform_info_intcodec.xml \
+    $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
+    $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/mixer_paths.xml \
+    $(LOCAL_PATH)/configs/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_mixer_paths.xml \
+    $(LOCAL_PATH)/configs/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_mixer_paths.xml \
+    $(LOCAL_PATH)/configs/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_ODM)/etc/sound_trigger_platform_info.xml \
+    $(LOCAL_PATH)/configs/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_platform_info.xml
 
 PRODUCT_PACKAGES += \
     libstdc++_vendor
@@ -131,8 +121,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Dolby Manager
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml \
-    $(LOCAL_PATH)/configs/audio/oneplus9pro/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/overlay/prj_11/odm/etc/dolby/multimedia_dolby_dax_default.xml
+    $(LOCAL_PATH)/configs/audio/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml
 
 PRODUCT_PACKAGES += \
     DolbyManager
@@ -156,8 +145,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Display
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display/display_id_4630946950956839810.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946950956839810.xml \
-    $(LOCAL_PATH)/configs/display/display_id_4630946292801050754.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946292801050754.xml
+    $(LOCAL_PATH)/configs/display/display_id_4630947249592374657.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947249592374657.xml
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.common-V1-ndk.vendor
@@ -203,7 +191,6 @@ PRODUCT_PACKAGES += \
     fstab.default \
     init.oplus.camera.rc \
     init.oplus.display.rc \
-    init.oplus.overlay.rc \
     init.oplus.perf.rc \
     init.oplus.sensors.rc \
     init.oplus.telephony.rc \
@@ -239,16 +226,11 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAOnePlus9ProSystemUI \
     AOSPAOnePlus9SeriesFrameworks \
     AOSPAOnePlus9SeriesSystemUI \
     AOSPAOnePlus9SystemUI \
     FrameworksResTarget \
     OnePlus9Frameworks \
-    OnePlus9ProFrameworks \
-    OnePlus9ProSettings \
-    OnePlus9ProSettingsProvider \
-    OnePlus9ProSystemUI \
     OnePlus9SeriesCarrierConfig \
     OnePlus9SeriesFrameworks \
     OnePlus9SeriesSettings \
@@ -267,7 +249,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
 # Platform
-TARGET_BOARD_PLATFORM := lahaina
+TARGET_BOARD_PLATFORM := holi
 
 # QTEE
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -322,7 +304,7 @@ PRODUCT_COPY_FILES += \
     hardware/oplus/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.oneplus9-multihal \
+    android.hardware.sensors@2.1-service.nordce2lite-multihal \
     libsensorndkbridge \
     sensors.oplus
 
@@ -363,7 +345,7 @@ PRODUCT_PACKAGES += \
     update_verifier
 
 # Vendor
-$(call inherit-product, vendor/oneplus/oneplus9/oneplus9-vendor.mk)
+$(call inherit-product, vendor/oneplus/nordce2lite/nordce2lite-vendor.mk)
 
 # Vibrator
 PRODUCT_PACKAGES += \
