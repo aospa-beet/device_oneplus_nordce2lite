@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=oneplus9
+DEVICE=nordce2lite
 VENDOR=oneplus
 
 # Load extract utilities and do some sanity checks.
@@ -56,9 +56,6 @@ fi
 function blob_fixup() {
     case "${1}" in
         odm/etc/camera/CameraHWConfiguration.config)
-            sed -i "/SystemCamera = / s/1;/0;/g" "${2}"
-            ;;
-        odm/overlay/prj_11/odm/etc/camera/CameraHWConfiguration.config)
             sed -i "/SystemCamera = / s/1;/0;/g" "${2}"
             ;;
         product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml)

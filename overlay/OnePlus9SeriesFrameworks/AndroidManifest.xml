@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.oneplus9series">
+    package="android.nordce2liteseries">
 
     <overlay
         android:isStatic="true"
