@@ -61,9 +61,6 @@ function blob_fixup() {
         product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml)
             sed -i "s/my_product/product/" "${2}"
             ;;
-        vendor/lib/libgui1_vendor.so)
-            "${PATCHELF}" --replace-needed "libui.so" "libui-v30.so" "${2}"
-            ;;
         vendor/lib64/hw/com.qti.chi.override.so)
             "${SIGSCAN}" -p "45 B8 05 94" -P "1F 20 03 D5" -f "${2}"
             ;;
