@@ -194,7 +194,6 @@ PRODUCT_PACKAGES += \
     charger_fw_fstab.qti \
     fstab.default \
     init.oplus.camera.rc \
-    init.oplus.charging.rc \
     init.oplus.display.rc \
     init.oplus.overlay.rc \
     init.oplus.perf.rc \
@@ -264,10 +263,6 @@ PRODUCT_COPY_FILES += \
 
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
-
-# Powershare
-PRODUCT_PACKAGES += \
-    vendor.aospa.powershare-service
 
 # QTEE
 PRODUCT_PROPERTY_OVERRIDES += \
