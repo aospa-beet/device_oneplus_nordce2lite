@@ -12,6 +12,7 @@ vendor.audio.hal.output.suspend.supported=false
 vendor.audio.offload.buffer.size.kb=256
 
 # RIL
+persist.radio.multisim.config=dsds
 persist.vendor.radio.force_on_dc=true
 persist.vendor.radio.poweron_opt=1
 persist.vendor.radio.stack_id_1=1

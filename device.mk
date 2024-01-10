@@ -115,7 +115,6 @@ PRODUCT_PACKAGES += \
     fstab.default \
     init.oplus.display.rc \
     init.oplus.sensors.rc \
-    init.oplus.telephony.rc \
     init.target.rc \
     ueventd.oplus.rc
 
