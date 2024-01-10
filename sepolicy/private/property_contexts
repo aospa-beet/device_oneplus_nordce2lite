@@ -5,6 +5,7 @@ persist.sys.camera.lao.enable    u:object_r:exported_system_prop:s0
 
 # Fingerprint
 oplus.fingerprint.         u:object_r:system_fingerprint_prop:s0
+oplus.goodix.fp            u:object_r:system_fingerprint_prop:s0
 gf.debug.dump_data         u:object_r:system_fingerprint_prop:s0
 oplus.optical.goodix.fp    u:object_r:system_fingerprint_prop:s0
 
@@ -19,6 +20,7 @@ persist.sys.log.af                  u:object_r:exported_system_prop:s0
 persist.sys.log.awb                 u:object_r:exported_system_prop:s0
 
 # Radio
+ro.oplus.radio.             u:object_r:exported_system_prop:s0
 ro.sys.reserve.integrate    u:object_r:exported_system_prop:s0
 
 # SVN
