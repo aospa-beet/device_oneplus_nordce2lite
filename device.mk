@@ -178,6 +178,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     qseecomd \
     telephony \
     usb \
+    vibrator \
     wfd \
     wlan
 
@@ -224,10 +225,6 @@ PRODUCT_PACKAGES += \
 
 # Vendor
 $(call inherit-product, vendor/oneplus/nordce2lite/nordce2lite-vendor.mk)
-
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.oplus
 
 # VNDK
 PRODUCT_PACKAGES += \
