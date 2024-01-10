@@ -23,20 +23,6 @@
             <instance>cameraextensionservice</instance>
         </interface>
     </hal>
-    <hal format="aidl" optional="true">
-        <name>vendor.oplus.hardware.cameraextension</name>
-        <interface>
-            <name>ICameraExtensionService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="aidl" optional="true">
-        <name>vendor.oplus.hardware.sendextcamcmd</name>
-        <interface>
-            <name>ISendExtCamCmdService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <!-- Fingerprint -->
     <hal format="hidl" optional="true">
         <name>vendor.goodix.hardware.biometrics.fingerprint</name>
