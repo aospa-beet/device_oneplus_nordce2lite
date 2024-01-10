@@ -31,11 +31,6 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
-# Alert Slider
-PRODUCT_PACKAGES += \
-    KeyHandler \
-    tri-state-key-calibrate
-
 # Attestation
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
@@ -215,7 +210,6 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAOnePlus9SeriesFrameworks \
     AOSPAOnePlus9SeriesSystemUI \
     AOSPAOnePlus9SystemUI \
     FrameworksResTarget \
