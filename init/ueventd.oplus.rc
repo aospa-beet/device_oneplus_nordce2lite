@@ -16,4 +16,4 @@
 /dev/pn553      0660    nfc               nfc
 
 # WiFi
-firmware_directories /odm/etc/wifi/
+firmware_directories /odm/etc/wifi/ /mnt/vendor/persist/ /vendor/firmware_mnt/image/
