@@ -184,7 +184,6 @@ PRODUCT_PACKAGES += \
     init.oplus.display.rc \
     init.oplus.perf.rc \
     init.oplus.sensors.rc \
-    init.oplus.telephony.rc \
     init.target.rc \
     ueventd.oplus.rc
 
@@ -273,6 +272,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0.vendor
 
 PRODUCT_ODM_PROPERTIES += \
+    persist.radio.multisim.config=dsds \
     persist.vendor.radio.force_on_dc=true \
     persist.vendor.radio.poweron_opt=1 \
     persist.vendor.radio.stack_id_1=1 \
