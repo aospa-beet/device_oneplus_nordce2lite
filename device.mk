@@ -343,7 +343,7 @@ $(call inherit-product, vendor/oneplus/nordce2lite/nordce2lite-vendor.mk)
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.oplus
+    vendor.qti.hardware.vibrator.service
 
 # VNDK
 PRODUCT_COPY_FILES += \
