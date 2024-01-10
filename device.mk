@@ -60,7 +60,6 @@ PRODUCT_PACKAGES += \
     libstdc++_vendor
 
 # Biometrics
-TARGET_USES_FOD_ZPOS := true
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
@@ -200,13 +199,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.stepcounter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml
 
-PRODUCT_COPY_FILES += \
-    hardware/oplus/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
-
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.nordce2lite-multihal \
-    libsensorndkbridge \
-    sensors.oplus
+    libsensorndkbridge
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
