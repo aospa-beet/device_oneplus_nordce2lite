@@ -182,6 +182,10 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.oplus.rc
 
+# Kernel
+KERNEL_MODULES_INSTALL := dlkm
+KERNEL_MODULES_OUT := $(OUT_DIR)/target/product/nordce2lite/$(KERNEL_MODULES_INSTALL)/lib/modules
+
 # Keymaster
 PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.dm_default_key.options_format.version=2 \
