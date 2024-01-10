@@ -132,7 +132,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     charger_fw_fstab.qti \
     fstab.default \
-    init.oplus.charging.rc \
     init.oplus.display.rc \
     init.oplus.overlay.rc \
     init.oplus.sensors.rc \
@@ -190,10 +189,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
-
-# Powershare
-PRODUCT_PACKAGES += \
-    vendor.aospa.powershare-service
 
 # QTEE
 PRODUCT_PROPERTY_OVERRIDES += \
