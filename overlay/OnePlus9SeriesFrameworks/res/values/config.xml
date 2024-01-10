@@ -89,8 +89,7 @@
     <!-- List supported color modes. -->
     <integer-array name="config_availableColorModes">
         <item>0</item> <!-- COLOR_MODE_NATURAL -->
-        <item>1</item> <!-- COLOR_MODE_BOOSTED -->
-        <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
+        <item>256</item> <!-- COLOR_MODE_VIVID -->
     </integer-array>
 
     <!-- The following two arrays specify which color space to use for display composition when a
@@ -106,13 +105,11 @@
          currently set composition color space will not be modified.-->
     <integer-array name="config_displayCompositionColorModes">
         <item>0</item> <!-- COLOR_MODE_NATURAL   -->
-        <item>1</item> <!-- COLOR_MODE_BOOSTED   -->
-        <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
+        <item>256</item> <!-- COLOR_MODE_VIVID   -->
     </integer-array>
     <integer-array name="config_displayCompositionColorSpaces">
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
-        <item>9</item> <!-- COLOR_MODE_DISPLAY_P3 -->
     </integer-array>
 
     <!-- If true, the doze component is not started until after the screen has been
