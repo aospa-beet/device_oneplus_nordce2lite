@@ -118,11 +118,47 @@ BOARD_KERNEL_CMDLINE := \
     service_locator.enable=1 \
     swiotlb=0
 
+BOARD_DO_NOT_STRIP_VENDOR_MODULES := true
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_BINARIES := kernel
 BOARD_KERNEL_PAGESIZE := 4096
 KERNEL_DEFCONFIG := vendor/holi-qgki_defconfig
 USE_KERNEL_AOSP_LLVM := true
+
+BOARD_VENDOR_KERNEL_MODULES := \
+    $(KERNEL_MODULES_OUT)/adsp_loader_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/apr_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/bolero_cdc_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/bt_fm_slim.ko \
+    $(KERNEL_MODULES_OUT)/btpower.ko \
+    $(KERNEL_MODULES_OUT)/camera.ko \
+    $(KERNEL_MODULES_OUT)/machine_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/mbhc_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/native_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/pinctrl_lpi_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/platform_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/q6_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/q6_notifier_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/q6_pdr_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/wlan.ko \
+    $(KERNEL_MODULES_OUT)/rmnet_core.ko \
+    $(KERNEL_MODULES_OUT)/rmnet_ctl.ko \
+    $(KERNEL_MODULES_OUT)/rmnet_offload.ko \
+    $(KERNEL_MODULES_OUT)/rmnet_shs.ko \
+    $(KERNEL_MODULES_OUT)/sia81xx_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/snd_event_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/stub_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/swr_ctrl_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/swr_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/va_macro_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/tx_macro_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/wcd937x_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/wcd937x_slave_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/wcd938x_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/wcd938x_slave_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/wcd9xxx_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/wcd_core_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/wsa881x_analog_dlkm.ko
 
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/oplus_chg/battery/chg_enable
