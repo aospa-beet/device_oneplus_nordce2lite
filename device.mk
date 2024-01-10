@@ -137,7 +137,6 @@ PRODUCT_PACKAGES += \
     init.oplus.overlay.rc \
     init.oplus.sensors.rc \
     init.oplus.telephony.rc \
-    init.oplus.touch.rc \
     init.target.rc \
     ueventd.oplus.rc
 
