@@ -160,9 +160,6 @@ BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/wcd_core_dlkm.ko \
     $(KERNEL_MODULES_OUT)/wsa881x_analog_dlkm.ko
 
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/oplus_chg/battery/chg_enable
-
 # OTA
 TARGET_OTA_ASSERT_DEVICE := OP535DL1,nordce2lite
 

@@ -8,7 +8,6 @@ genfscon proc /qcom_flash     u:object_r:vendor_proc_flash:s0
 genfscon proc /wireless                                                u:object_r:vendor_proc_wireless:s0
 genfscon sysfs /devices/platform/soc/soc:oplus,chg_gki/power_supply    u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /devices/platform/soc/soc:oplus,chg_intf/oplus_chg      u:object_r:vendor_sysfs_usb_supply:s0
-genfscon sysfs /class/oplus_chg                                        u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /devices/platform/soc/soc:discrete_charger/power_supply/battery  u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /devices/platform/soc/soc:discrete_charger/power_supply/ac	u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /devices/platform/soc/soc:discrete_charger/power_supply/usb	u:object_r:vendor_sysfs_usb_supply:s0
