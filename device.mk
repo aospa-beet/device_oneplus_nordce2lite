@@ -137,9 +137,6 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Display
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display/display_id_4630947249592374657.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947249592374657.xml
-
 PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.frame_rate_multiple_threshold=60 \
     ro.surface_flinger.refresh_rate_switching=true \
