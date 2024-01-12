@@ -65,7 +65,4 @@
     <!-- Whether to intercept inputs on screen off. -->
     <bool name="config_enableKeyHandler">true</bool>
 
-    <!-- Whether device has an alert slider. -->
-    <bool name="config_hasAlertSlider">true</bool>
-
 </resources>
