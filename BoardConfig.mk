@@ -131,6 +131,9 @@ BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/btpower.ko \
     $(KERNEL_MODULES_OUT)/camera.ko
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/oplus_chg/battery/mmi_charging_enable
+
 # OTA
 TARGET_OTA_ASSERT_DEVICE := OP535DL1|nordce2lite
 
