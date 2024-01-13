@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0.
+## From LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0.
 ## Sections labeled with 'OOS' are
 ## on latest OxygenOS which is CPH2381_14.0.0.200(EX01) at present.
 
@@ -124,7 +124,6 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd|247fa73
 vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd|92885cbda7ebaba86f07cc6974ba9a17cfac78f8
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd|b761b7b9d0b2e782ec557b0c333cc3efa924db4f
 vendor/etc/acdbdata/adsp_avs_config.acdb|43fde53eaafb40ac88e5c7e2e17dd534f84d5efd
-vendor/lib/hw/audio.primary.holi.so|7da0d0b63a53531f2a6cb4761ee96b1b349043e4
 vendor/lib/hw/sound_trigger.primary.holi.so|1d57c7a4c34fe4c41871272f060c02cc0c0055ff
 vendor/lib/soundfx/libasphere.so|a742e8196f321571132113e0052b9c947cb9d37a
 vendor/lib/soundfx/libqcbassboost.so|75266de6e9d0eeca3cc40451e144889f21e733f9
@@ -223,6 +222,10 @@ vendor/lib64/libmulawdec.so|fcfd2175fbcf802d5282d0e330c731a7dd3cd3f5
 vendor/lib64/libqtigef.so|6e153607d9f16529c342cd51e12b82be6237319d
 vendor/lib64/libstagefright_soft_qtiflacdec.so|f840fd777d57f0f9d7f196935ddde5050291c51f
 vendor/lib64/vendor.qti.voiceprint@1.0.so|065739e8d05515fa4c4aea3d8f3c66beaa3b7a9a
+
+# Audio - OOS C.32
+vendor/lib/hw/audio.primary.holi.so|16e848d4b508dc84c05a06dc246b136b1e5e65de
+vendor/lib/vendor.oplus.hardware.performance@1.0.so|fc39843c253c96d084d7147fbc88bc0c6f066eb5
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
