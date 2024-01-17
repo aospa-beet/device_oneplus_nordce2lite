@@ -360,8 +360,8 @@ vendor/firmware/evass.mdt|c43e5a718c6358c387db37914244e6d3a458e06e
 # Camera - OOS
 odm/etc/camera/aicolor/duallut_background.bmp|8b519e6f3ddac3a70d5f44c4a3422f5e55275e94
 odm/etc/camera/aicolor/duallut_portrait.bmp|062ce81a821a987a6d856fe8db045e735f97705d
-odm/etc/camera/anc/merged_model_post|50a8234454a711f1c19e8dd0e45c8caecb892695
 odm/etc/camera/anc/merged_model|2f7607abcb5d5597b36f1d613e865f63c08662f9
+odm/etc/camera/anc/merged_model_post|50a8234454a711f1c19e8dd0e45c8caecb892695
 odm/etc/camera/asd/class.dlc|f5b33d12a76ce993a63c2ea1363476b46a9ba2c0
 odm/etc/camera/asd/detect.dlc|e1c0b0bb2d7ee9bd3c69cb0463456d578961775b
 odm/etc/camera/ashdr/ncf_pack.ncf|1758fb709a0375c754c2e6f3a34c8093538956f7
@@ -737,11 +737,26 @@ odm/etc/camera/filters_res/filters_res/overlay_p4_3_weak.png|d17b9bf407e2bfc9e72
 odm/etc/camera/filters_res/film_grain_small.bin|b98855ca8ca85c4ed736f0f02484622da2574343
 odm/etc/camera/filters_res/lut_all_points.png|1c3f2d6bab41f8f54ce948872588c4a718c43ac4
 odm/etc/camera/filters_res/overlay_p4_3_weak.png|d17b9bf407e2bfc9e727429672adfe681fc03670
+odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model|3a20f7832ed58bc9563c9a5dfea26704784d45f4
+odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model|140f926684870d0d74434b172fea824dfc0b0dc0
+odm/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model|4e2e2b88c51986b14a3a80137a313a62a57a0b2d
+odm/etc/camera/gesture/modules/tt_hand_kp_v6.0.model|008b13a07caf7bb3a8bd82794fda3046536572af
+odm/etc/camera/gesture/modules/tt_hand_lr_v3.0.model|e6e0cf8dabc257c539a2055f09ec0be8a127daee
+odm/etc/camera/gesture/tt_hand_box_reg_v12.0.model|3a20f7832ed58bc9563c9a5dfea26704784d45f4
+odm/etc/camera/gesture/tt_hand_det_v11.0.model|140f926684870d0d74434b172fea824dfc0b0dc0
+odm/etc/camera/gesture/tt_hand_gesture_v11.1.model|4e2e2b88c51986b14a3a80137a313a62a57a0b2d
+odm/etc/camera/gesture/tt_hand_kp_v6.0.model|008b13a07caf7bb3a8bd82794fda3046536572af
+odm/etc/camera/gesture/tt_hand_lr_v3.0.model|e6e0cf8dabc257c539a2055f09ec0be8a127daee
+odm/etc/camera/megvii/cache|57537c245879aab18ea75b898a566d617b941f33
+odm/etc/camera/megvii/siq_ocl_cache|f160ceaeb0e9d8138c315d9b0aeeaacd803e8c3b
+odm/etc/camera/megvii/superiq_model|843201e0a1d333f81c9292c88c6982023a1fe673
 odm/etc/camera/model/DocDetectV15.xbin|ff40cbe1cc82fe484764029c4a42386f32c8fe51
+odm/etc/camera/model/license.lic|553876ed19ab9089b78da37a648dc662c8ba1ce3
 odm/etc/camera/motionblur/model.data|468dfe976065aec4b98b2633c95dd68ac9c33622
 odm/etc/camera/pf/PerfectColorSet/normal/ColorLut|9f0fbc5913830ca1a6d25ce029a5df4b9a7a4baa
 odm/etc/camera/pf/PerfectColorSet/normal/CurveLut|8faa01136066b93ceae70873bf21fdd385a6c461
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut0|c30a24d4e310333275f81f3530974234cdf9e39b
+odm/etc/camera/pf/PerfectColorSet/normal/colorLut1|0e5abfcc5fafc77b353ebd17ba51baf10686bfb5
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut10|6c2d652b0fd4279b029ed02ef6499954d2a92ffb
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut11|1763d517b8d2b3c51177c8b3f66c7b9cea89062b
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut12|8b9736c428abe68ac97bcd008830444792e7cf11
@@ -751,7 +766,6 @@ odm/etc/camera/pf/PerfectColorSet/normal/colorLut15|f3400921f05451fdf92ed741e316
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut16|f3400921f05451fdf92ed741e3169e5ec55d7022
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut17|f680e1d00652179ed823fc2116aba77924449882
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut18|851b9d1b43dae348005c800956325701add713f5
-odm/etc/camera/pf/PerfectColorSet/normal/colorLut1|0e5abfcc5fafc77b353ebd17ba51baf10686bfb5
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut2|a59fcc95cc66657bd3d55d0829094b0dec1660ac
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut3|f874058616a94ba6920f7e07f4fc8c02371f4e41
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut4|5edc525c63e92564d00f4f2cf9af19383ae85024
@@ -761,6 +775,7 @@ odm/etc/camera/pf/PerfectColorSet/normal/colorLut7|cf8b139a1718eec802398770a4ea3
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut8|44cde3f450b116d72323803852887e16609f58c8
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut9|44cde3f450b116d72323803852887e16609f58c8
 odm/etc/camera/pf/PerfectColorSet/normal/curveLut0|a4c65b33d6040be6bd2d2d0768db840458f76474
+odm/etc/camera/pf/PerfectColorSet/normal/curveLut1|ff01d83a3fab101d1973e29fae8590c2b4a0696a
 odm/etc/camera/pf/PerfectColorSet/normal/curveLut10|c514d5c7dc3ea4132d3c6cec9983d75211cc7c40
 odm/etc/camera/pf/PerfectColorSet/normal/curveLut11|72f37bd4430cdee024dc9435001935c4fa3c0173
 odm/etc/camera/pf/PerfectColorSet/normal/curveLut12|ff01d83a3fab101d1973e29fae8590c2b4a0696a
@@ -770,7 +785,6 @@ odm/etc/camera/pf/PerfectColorSet/normal/curveLut15|cec78b5f357413fe0a12646816c7
 odm/etc/camera/pf/PerfectColorSet/normal/curveLut16|cec78b5f357413fe0a12646816c7c2cda26e426b
 odm/etc/camera/pf/PerfectColorSet/normal/curveLut17|d6d6b10f952f245b736c15bfa6e9e3f2e8ab06b6
 odm/etc/camera/pf/PerfectColorSet/normal/curveLut18|ff01d83a3fab101d1973e29fae8590c2b4a0696a
-odm/etc/camera/pf/PerfectColorSet/normal/curveLut1|ff01d83a3fab101d1973e29fae8590c2b4a0696a
 odm/etc/camera/pf/PerfectColorSet/normal/curveLut2|a4c65b33d6040be6bd2d2d0768db840458f76474
 odm/etc/camera/pf/PerfectColorSet/normal/curveLut3|ff01d83a3fab101d1973e29fae8590c2b4a0696a
 odm/etc/camera/pf/PerfectColorSet/normal/curveLut4|72f37bd4430cdee024dc9435001935c4fa3c0173
@@ -805,6 +819,7 @@ odm/etc/camera/pf/PerfectColorSet/normal/sceneList.txt|b21a48524fecea7f516bfcbf9
 odm/etc/camera/pf/PerfectColorSet/portrait/ColorLut|9f0fbc5913830ca1a6d25ce029a5df4b9a7a4baa
 odm/etc/camera/pf/PerfectColorSet/portrait/CurveLut|8faa01136066b93ceae70873bf21fdd385a6c461
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut0|c30a24d4e310333275f81f3530974234cdf9e39b
+odm/etc/camera/pf/PerfectColorSet/portrait/colorLut1|0e5abfcc5fafc77b353ebd17ba51baf10686bfb5
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut10|6c2d652b0fd4279b029ed02ef6499954d2a92ffb
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut11|1763d517b8d2b3c51177c8b3f66c7b9cea89062b
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut12|8b9736c428abe68ac97bcd008830444792e7cf11
@@ -814,7 +829,6 @@ odm/etc/camera/pf/PerfectColorSet/portrait/colorLut15|f3400921f05451fdf92ed741e3
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut16|f3400921f05451fdf92ed741e3169e5ec55d7022
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut17|f680e1d00652179ed823fc2116aba77924449882
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut18|851b9d1b43dae348005c800956325701add713f5
-odm/etc/camera/pf/PerfectColorSet/portrait/colorLut1|0e5abfcc5fafc77b353ebd17ba51baf10686bfb5
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut2|a59fcc95cc66657bd3d55d0829094b0dec1660ac
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut3|f874058616a94ba6920f7e07f4fc8c02371f4e41
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut4|5edc525c63e92564d00f4f2cf9af19383ae85024
@@ -824,6 +838,7 @@ odm/etc/camera/pf/PerfectColorSet/portrait/colorLut7|cf8b139a1718eec802398770a4e
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut8|44cde3f450b116d72323803852887e16609f58c8
 odm/etc/camera/pf/PerfectColorSet/portrait/colorLut9|44cde3f450b116d72323803852887e16609f58c8
 odm/etc/camera/pf/PerfectColorSet/portrait/curveLut0|a4c65b33d6040be6bd2d2d0768db840458f76474
+odm/etc/camera/pf/PerfectColorSet/portrait/curveLut1|ff01d83a3fab101d1973e29fae8590c2b4a0696a
 odm/etc/camera/pf/PerfectColorSet/portrait/curveLut10|c514d5c7dc3ea4132d3c6cec9983d75211cc7c40
 odm/etc/camera/pf/PerfectColorSet/portrait/curveLut11|72f37bd4430cdee024dc9435001935c4fa3c0173
 odm/etc/camera/pf/PerfectColorSet/portrait/curveLut12|ff01d83a3fab101d1973e29fae8590c2b4a0696a
@@ -833,7 +848,6 @@ odm/etc/camera/pf/PerfectColorSet/portrait/curveLut15|cec78b5f357413fe0a12646816
 odm/etc/camera/pf/PerfectColorSet/portrait/curveLut16|cec78b5f357413fe0a12646816c7c2cda26e426b
 odm/etc/camera/pf/PerfectColorSet/portrait/curveLut17|d6d6b10f952f245b736c15bfa6e9e3f2e8ab06b6
 odm/etc/camera/pf/PerfectColorSet/portrait/curveLut18|ff01d83a3fab101d1973e29fae8590c2b4a0696a
-odm/etc/camera/pf/PerfectColorSet/portrait/curveLut1|ff01d83a3fab101d1973e29fae8590c2b4a0696a
 odm/etc/camera/pf/PerfectColorSet/portrait/curveLut2|a4c65b33d6040be6bd2d2d0768db840458f76474
 odm/etc/camera/pf/PerfectColorSet/portrait/curveLut3|ff01d83a3fab101d1973e29fae8590c2b4a0696a
 odm/etc/camera/pf/PerfectColorSet/portrait/curveLut4|72f37bd4430cdee024dc9435001935c4fa3c0173
@@ -907,6 +921,7 @@ odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin|ef5742459724dadf760df02
 odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin|49202c1f8f6bb2f376703de74b4bf3ea4e17dbdd
 odm/etc/camera/pfb_bin/snapEyeYUV2RGBBinary.bin|bf752383d24b34a96a20808f4711a42cc6e0daed
 odm/etc/camera/singleblur/doubleloss_large.model|041fcce198f2b34d8d8df6f434bfe37478a681d1
+odm/etc/camera/singleblur/license_release.license|450ff8602b9c00e3973559616f2f0950687290c1
 odm/etc/camera/singleblur/personseg.bin|fbdbc245bfdd9b377293604a0fab1470c8e8adff
 odm/etc/camera/singleblur/preview_seg.json|1b1c0434047563194aeea8e71ae3b6cb796ea72b
 odm/etc/camera/singleblur/singlut_background.png|b0b6f0dd1591ebf768b1c1324a3011a480ee9fee
@@ -915,8 +930,8 @@ odm/etc/camera/sticker/material/animoji/data.zip|e26f389fe389e17f4577ae1698c1838
 odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip|aebb9673f46d009573f787c6815764ace68c2df0
 odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model|a9b3a9a8a2d59c438de87137e8d5943eef915d8a
 odm/etc/camera/tonemap/tonemap/curve_lut_0|a4c65b33d6040be6bd2d2d0768db840458f76474
-odm/etc/camera/tonemap/tonemap/curve_lut_10|cec78b5f357413fe0a12646816c7c2cda26e426b
 odm/etc/camera/tonemap/tonemap/curve_lut_1|ff01d83a3fab101d1973e29fae8590c2b4a0696a
+odm/etc/camera/tonemap/tonemap/curve_lut_10|cec78b5f357413fe0a12646816c7c2cda26e426b
 odm/etc/camera/tonemap/tonemap/curve_lut_2|72f37bd4430cdee024dc9435001935c4fa3c0173
 odm/etc/camera/tonemap/tonemap/curve_lut_3|9131be886ba4745f8389ac7a3877ccbca2fcceb6
 odm/etc/camera/tonemap/tonemap/curve_lut_4|d6d6b10f952f245b736c15bfa6e9e3f2e8ab06b6
@@ -928,8 +943,8 @@ odm/etc/camera/tonemap/tonemap/curve_lut_9|66461d16dcd3ffa6525c73bee50ab5ae60aa3
 odm/etc/camera/tonemap/tonemap/list.txt|cdbc0f1bcc646da7a23f5db9325922a5db155b73
 odm/etc/camera/tonemap/tonemap/s_curve_lut|48d1df744e0bfaa1187ade0d1ed563a4cc91fe76
 odm/etc/camera/tonemap/tonemap/tonemap_lut_0|4c66bfad2f99de8a2765b75517f76a4f7b29e586
-odm/etc/camera/tonemap/tonemap/tonemap_lut_10|50a0d9795d3762adc9d16a25ded0199eaeab775d
 odm/etc/camera/tonemap/tonemap/tonemap_lut_1|f44c5f81eed91f16fd3498f01533f79334f76b83
+odm/etc/camera/tonemap/tonemap/tonemap_lut_10|50a0d9795d3762adc9d16a25ded0199eaeab775d
 odm/etc/camera/tonemap/tonemap/tonemap_lut_2|82d6da9239b45c7634b2df3d1c37a4467a2cf005
 odm/etc/camera/tonemap/tonemap/tonemap_lut_3|ac662974e035d1d6b1c1ae06457310340aaca417
 odm/etc/camera/tonemap/tonemap/tonemap_lut_4|03ea5710cb3137c5c30c4941c25a37cc3f6bf5f7
@@ -939,8 +954,8 @@ odm/etc/camera/tonemap/tonemap/tonemap_lut_7|ca6098e12166e3830fe30d9788be10a2837
 odm/etc/camera/tonemap/tonemap/tonemap_lut_8|8a25c8bf43bad6c4ab8928959dbc80d3ffdffde2
 odm/etc/camera/tonemap/tonemap/tonemap_lut_9|e7eebd43c4d3d5d399ea531aea23f787cc97becb
 odm/etc/camera/tonemap/curve_lut_0|a4c65b33d6040be6bd2d2d0768db840458f76474
-odm/etc/camera/tonemap/curve_lut_10|cec78b5f357413fe0a12646816c7c2cda26e426b
 odm/etc/camera/tonemap/curve_lut_1|ff01d83a3fab101d1973e29fae8590c2b4a0696a
+odm/etc/camera/tonemap/curve_lut_10|cec78b5f357413fe0a12646816c7c2cda26e426b
 odm/etc/camera/tonemap/curve_lut_2|72f37bd4430cdee024dc9435001935c4fa3c0173
 odm/etc/camera/tonemap/curve_lut_3|9131be886ba4745f8389ac7a3877ccbca2fcceb6
 odm/etc/camera/tonemap/curve_lut_4|d6d6b10f952f245b736c15bfa6e9e3f2e8ab06b6
@@ -952,8 +967,8 @@ odm/etc/camera/tonemap/curve_lut_9|66461d16dcd3ffa6525c73bee50ab5ae60aa33ff
 odm/etc/camera/tonemap/list.txt|cdbc0f1bcc646da7a23f5db9325922a5db155b73
 odm/etc/camera/tonemap/s_curve_lut|48d1df744e0bfaa1187ade0d1ed563a4cc91fe76
 odm/etc/camera/tonemap/tonemap_lut_0|4c66bfad2f99de8a2765b75517f76a4f7b29e586
-odm/etc/camera/tonemap/tonemap_lut_10|50a0d9795d3762adc9d16a25ded0199eaeab775d
 odm/etc/camera/tonemap/tonemap_lut_1|f44c5f81eed91f16fd3498f01533f79334f76b83
+odm/etc/camera/tonemap/tonemap_lut_10|50a0d9795d3762adc9d16a25ded0199eaeab775d
 odm/etc/camera/tonemap/tonemap_lut_2|82d6da9239b45c7634b2df3d1c37a4467a2cf005
 odm/etc/camera/tonemap/tonemap_lut_3|ac662974e035d1d6b1c1ae06457310340aaca417
 odm/etc/camera/tonemap/tonemap_lut_4|03ea5710cb3137c5c30c4941c25a37cc3f6bf5f7
@@ -974,6 +989,7 @@ odm/etc/camera/fb_default|14cda338372fbb0dc1b4f5c149f7c753f08c02b9
 odm/etc/camera/fdc_cl.cache|787cef18ebb6f13b157532685946b29fe6b51dde
 odm/etc/camera/fwk_config.json|547fb12c75bd64088ebb02da449736477567188b
 odm/etc/camera/gasryuv_1.2_wp.model|9841ddf3979ba69bf4e21be32de94c9155dd7a9e
+odm/etc/camera/license_release_fdc.lic|94279c43be4069558716403e7d0df9a63890d031
 odm/etc/camera/model_fdc.data|93e3bd97987ab01580d6520e36b68e24c2028301
 odm/etc/camera/neon_yuv_LUT_64.bin|289a0fe1b240c59803762cf1d6d93e6ee90e29f5
 odm/etc/camera/selfbokehParam.json|db821d5ce66ab98c3ce7b611bdc17ff030ba5ca2
@@ -1124,9 +1140,22 @@ odm/lib64/libwatermark_photo.so|d0e9c1ffe36f7bffcd103f49122913097f1b6517
 odm/lib64/libyuvwrapper.so|40042e3ef9e520e338791de0ee1e65241cdd2f43
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so|41a058468ad3002dffd6416a9d42734cd851c9da
 odm/lib64/vendor.oplus.hardware.orms@1.0.so|5cc13fd1ecc133ca53d44c5527bd364468b2ab3d
+vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|43b21d05fc513b9ea4fa2fc779cfc374b836d814
 vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode|f0bd6f530922d25ad16fc1e54088834783c44f0c
 vendor/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode|c8149b903b87ad331e8210b0fd77cda86552e429
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode|eef93e7a568ba2cd0a3b3c954f50547182ca568d
+vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc|9dd1135258d9d850ef13267223dd08d6fbbe1726
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|be26003f7c20be1c0798b65ba2e1e4ef6d647745
+vendor/lib/android.hardware.camera.provider@2.4-external.so|29f0b6591f349786a26dd4bd93a1583e30f4cb94
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so|de150e0f5f09810e977d23f935ecbdcdc7a44d22
+vendor/lib/camera.device@1.0-impl.so|ba68776540190df4a5c0aca2f0d9149a097ba9f8
+vendor/lib/camera.device@3.2-impl.so|22994bc60c8247683753c1e0b227eaedc01e41c0
+vendor/lib/camera.device@3.3-impl.so|c8cb5da45814479f6d1af5ddff219aa191b3c959
+vendor/lib/camera.device@3.4-external-impl.so|09b490eab0d5a44abf224dec960fdc731aa3e5c8
+vendor/lib/camera.device@3.4-impl.so|cd34becbc4e348af4b58972fe3510f99a2056918
+vendor/lib/camera.device@3.5-external-impl.so|0b721aa3029aa2daf5d359715f963faa0d9021c7
+vendor/lib/camera.device@3.5-impl.so|e554f1444b9ca9abb20a6a4afa770fd89b6a4af6
+vendor/lib/camera.device@3.6-external-impl.so|d9de2622276b6d8ab54dd18e9334e07c47552614
 vendor/lib/libcamxexternalformatutils.so|1735d16f16b0bed471a447c26455950548b7d694
 vendor/lib64/camera/components/com.oplus.node.preview.so|79cfec4e81e2a81692798a440b0a7657d45307e3
 vendor/lib64/camera/components/com.oplus.node.videoenhance.so|4100b34ffd17e4c53ddba57ffe4ee1f3c62788b1
@@ -1208,8 +1237,19 @@ vendor/lib64/camera/fdconfigpreview.bin|caf04e55d04ba717c8618faa125c1708efe44c1a
 vendor/lib64/camera/fdconfigpreviewlite.bin|e95052671b9eec7ff53b665482b7b85b7dac0c62
 vendor/lib64/camera/fdconfigvideo.bin|c3303efadaa16495aee7e508a07f9000a435e8a2
 vendor/lib64/camera/fdconfigvideolite.bin|2d4648c313fa28fb83272f39ad64fd3bd0ff826d
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|2a572d140e1f10400453284ca56c73d969631ca0
 vendor/lib64/hw/camera.qcom.so|4eca2fb108d80e2a12136836f3e4a19fadd61d8f
-vendor/lib64/hw/com.qti.chi.override.so|e7fba13d0c3ab12639d8092014760a1e60ae3e82
+vendor/lib64/hw/com.qti.chi.override.so|16845e0c1b455f7a295b6fd97a42a0dac2d52390
+vendor/lib64/android.hardware.camera.provider@2.4-external.so|6a346afc3072cf1bd1d50a05c23a25a3707d776c
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|3e907e7a800bdb6189c357fc4898d15ae7eee19c
+vendor/lib64/camera.device@1.0-impl.so|39ad8ab210ee120c66c34e75ebde2d6cb3f8475d
+vendor/lib64/camera.device@3.2-impl.so|d39c2c1039dbee65976385123ff6fccf4d54e3f6
+vendor/lib64/camera.device@3.3-impl.so|03079c24f5cbcf2792573bffb3dbcd59a112deeb
+vendor/lib64/camera.device@3.4-external-impl.so|f7b005ffb843f25d95e362f013357db219e6803d
+vendor/lib64/camera.device@3.4-impl.so|8c17ca7fd841a6a7775ab84b8ef83b9e9d40dd79
+vendor/lib64/camera.device@3.5-external-impl.so|55e9e7f84e517d541afd0bfcdd6af440849e062b
+vendor/lib64/camera.device@3.5-impl.so|c9135396fea95758f61d7a223fdbedc2c77edb3f
+vendor/lib64/camera.device@3.6-external-impl.so|616bccaeb920dc63349b1855a050863a16e690af
 vendor/lib64/com.qti.chiusecaseselector.so|5a845c0ec6a6360a714151f55edc34dcc1635d44
 vendor/lib64/com.qti.feature2.anchorsync.so|7bc6288ddf19aac87223678a3cd577597b1b5ffc
 vendor/lib64/com.qti.feature2.demux.so|526f63a71567be6127c224d253ce95dbbc0e82a0
@@ -1256,6 +1296,7 @@ vendor/lib64/libaisal.so|e3c441bf64cb415b51f86c11cacbf0e42aa6e94c
 vendor/lib64/libarcsoft_videoautozoom.so|0ce135dc557ada62e7837d04cc7fd40a2f9d6196
 vendor/lib64/libbitmlengine.so|ee13d3d7cd3afa0fc3fcb5dd03925885ba827582
 vendor/lib64/libbitmlenginev2.so|5dfec83b95e32fc08421e118538260fc7a8047e7
+vendor/lib64/libcamera2ndk_vendor.so|09049c9693a550a0dd1cee1a8bdd78f1bf9f53ec
 vendor/lib64/libcamera_nn_stub.so|f34da041af14a1976cae259515030da35782d6eb
 vendor/lib64/libcamerapostproc.so|6256a2bb9d89dd2295a4809f60b53280def6ca17
 vendor/lib64/libcamxexternalformatutils.so|15638551eac75044f924d88ea30d297b8fa122a7
@@ -1306,18 +1347,19 @@ vendor/lib64/libtfestriping.so|92844998b2cea0c732e67e40c6a13fb4b0f35a26
 vendor/lib64/libthreadutils.so|6ab1d3ce2d2b7e7c36bff6cda4e0f450e303a1de
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so|bf9174821ff9c980b80898057f7025f82fd32477
 vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so|5df4a49fde6206da1ceed26aa93144ed43fab7f7
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|8b6a719c4c324e5ad6af7d720c97c80a5cfb68e8
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|df4b18200400e998caa64c6102ae0ed80bc08cf7
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so|07aa28dbac4b6c685bdec490c915f92e064d920e
 
-# Config Store
-vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
-vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
+# Config Store - OOS
+vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|d9d189dfb678394733aae2e8557d6c87eda85516
+vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
+vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|aec514d3e610b4ef7d4d121695531b20b1e08aa9
 
-# Connection Security
--vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
-vendor/bin/ssgqmigd
-vendor/bin/ssgtzd
-vendor/etc/init/ssgtzd.rc
+# Connection Security - OOS
+vendor/bin/ssgqmigd|5769f2aef8fdf48f55b01e3d7d3d1aecb860d7e1
+vendor/bin/ssgtzd|de3035141e9881da8553c97646261b3732857278
+vendor/etc/init/ssgtzd.rc|140086da548acd74420c8f494c3351b4dedc1c80
 
 # Dolby - lemonade
 odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service|7951f0ede5108f0080bb8abb18651058db9e46ae
@@ -1526,9 +1568,9 @@ vendor/etc/permissions/vendor.qti.hardware.factory.xml
 vendor/lib64/vendor.qti.hardware.factory@1.0.so
 vendor/lib64/vendor.qti.hardware.factory@1.1.so
 
-# MM OSAL
-vendor/lib/libmmosal.so
-vendor/lib64/libmmosal.so
+# MM OSAL - OOS
+vendor/lib/libmmosal.so|130b02ef9cc2e497a1dc78a143e199630049b2e1
+vendor/lib64/libmmosal.so|cdfbf2803cca3fd6aa3fc7516dfa1284281b5ddf
 
 # Media Profiles - OOS
 vendor/etc/media_blair/video_system_specs.json|417f7c9532df27729520bb9e70f067001674e7a3
@@ -1578,11 +1620,11 @@ vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 
-# QCV
-vendor/bin/init.qti.qcv.sh
-vendor/etc/init/init.qti.qcv.rc
-vendor/lib64/libsoc_helper.so
-vendor/lib64/libsoc_helper_jni.so
+# QCV - OOS
+vendor/bin/init.qti.qcv.sh|355a70cde39583a7f2a07441ba5ab1ed4d7feb18
+vendor/etc/init/init.qti.qcv.rc|1d0cff5660bdf7abc22ac2b960a0dcd88404d740
+vendor/lib64/libsoc_helper.so|1a76b2e9151c6bf3a0576999b4ca9fa2e65da6ed
+vendor/lib64/libsoc_helper_jni.so|e58ddb6b27e4d7fd215adbbd05165f1dccdd0f05
 
 # QMI
 vendor/bin/irsc_util
@@ -1712,21 +1754,21 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 vendor/bin/rmt_storage|4e94c2359b3c0bec8d761606ec1d3a1e85f87df5
 vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
 
-# SCVE
-vendor/lib64/libscveCommon.so
-vendor/lib64/libscveCommon_stub.so
-vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectSegmentation_stub.so
-vendor/lib64/libscveObjectTracker.so
-vendor/lib64/libscveObjectTracker_stub.so
-vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
-vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
+# SCVE - OOS
+vendor/lib64/libscveCommon.so|6adf58a1b21c3ffad3018708d351b88709665527
+vendor/lib64/libscveCommon_stub.so|feb605c644e088129e9ca291e358b0ad9ba11c16
+vendor/lib64/libscveObjectSegmentation.so|94dd0652064cffa1f1d667f90acf3a850550f287
+vendor/lib64/libscveObjectSegmentation_stub.so|8a97ddd79f66978067b22e46d707a0dfecb368ea
+vendor/lib64/libscveObjectTracker.so|188da0c2113ff910f0fc128d1722a179d6aa7776
+vendor/lib64/libscveObjectTracker_stub.so|1a9bd587a432b0b8950a2ed012257b00fd7e89eb
+vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|117a80b1ffb8144db6fa1407d71b4d9e9d287fe1
+vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|12a1dd75f376d5b62482a660422f889f137cd167
 
-# SMC Invoke
-vendor/etc/ssg/ta_config.json
-vendor/etc/ssg/tz_whitelist.json
-vendor/lib64/libnative-api.so
-vendor/lib64/libqcbor.so
+# SMC Invoke - OOS
+vendor/etc/ssg/ta_config.json|e18554b038da3737b7352d1271e5fde9c789c9df
+vendor/etc/ssg/tz_whitelist.json|c0dc4f4cfee20db5993eb5142e362cba7dfaecd6
+vendor/lib64/libnative-api.so|976a4b9a4c19251106f5fb77722d1b0dc6b4bce6
+vendor/lib64/libqcbor.so|03d2dc276276c7ecf84fd209befbb8cfae10b12f
 
 # Sensors - OOS
 odm/bin/oplus_sensor_fb|0a791739921434ee29b4a5db7fc09a95e92c091e
@@ -1820,32 +1862,20 @@ vendor/lib64/libssc_default_listener.so|da9e3d83340a83b42554b738d8a72b0350f600d7
 vendor/lib64/sensors.ssc.so|8a991714445d2326a66fdaae16fcdb1d30145939
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|7484c4f178837ec83a96c8e390716cde655e231b
 
-# SecureMSM (SECDISP)
-vendor/bin/hw/vendor.qti.hardware.trustedui@1.0-service-qti
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
-vendor/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib64/libTouchInputVM.so
-vendor/lib64/libTrustedInput.so
-vendor/lib64/libTrustedInputTZ.so
-vendor/lib64/libTrustedUI.so
-vendor/lib64/libTrustedUITZ.so
-vendor/lib64/libTrustedUIVM.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libsi.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
-vendor/lib64/vendor.qti.hardware.trustedui@1.0.so
-vendor/lib64/vendor.qti.hardware.trustedui@1.1.so
-vendor/lib64/vendor.qti.hardware.trustedui@1.2.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+# SecureMSM (SECDISP) - OOS
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|251475f5abd62976b2f148fa3803e0970746b75e
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib64/libsecureui_svcsock.so|64bdfde679d220278b338791fd4e83d19aae22a2
+vendor/lib64/libsi.so|e347420a23506a2033cc8c7f9b6dd8324f157390
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|5088dcbc943177b8c968803a1db07a92c4977b14
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|a4ea534ab3136d89d162d675f47cfeedbdfbedc9
 
-# SecureMSM
-vendor/bin/hdcp1prov
-vendor/bin/hdcp2p2prov
-vendor/lib64/libhdcp1prov.so
-vendor/lib64/libhdcp2p2prov.so
-vendor/lib64/libhdcpsrm.so
-vendor/lib64/libspl.so
+# SecureMSM - OOS
+vendor/bin/hdcp1prov|5a33b80485a1d2f9301f36e5b322f3ddd7aaed95
+vendor/bin/hdcp2p2prov|cd7f09b0f4611e009d6151e22d15ed29369378b8
+vendor/lib64/libhdcp1prov.so|95e5af8b32c10679a4fa5eda2ef0e4a97182fdae
+vendor/lib64/libhdcp2p2prov.so|1a0cb879904b8b03da2b767cfd9cfedca9dfd72a
+vendor/lib64/libhdcpsrm.so|cbddb1b0adb1ee8fbc5147e4bc6dcdf077cede8e
 
 # Soter
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
@@ -1884,18 +1914,8 @@ odm/firmware/tp/21341/FW_NF_ILI7807S_DSJM.img|8073d094a4499363e3f564fed71700ff80
 odm/firmware/tp/21341/FW_NF_ILI7807S_DSJM_FAE.img|c6644e47ffcc06437b19f169d182416cb72ab10b
 odm/firmware/tp/21341/LIMIT_NF_ILI7807S_DSJM.img|3ff1572c613d14bf23831958be4e19c0326cfdb8
 
-# VPP
-vendor/bin/vppservice
-vendor/etc/configstore/vpp.configstore.xml
-vendor/etc/init/vppservice.rc
-vendor/lib/vendor.qti.hardware.vpp@2.0.so
-vendor/lib64/libvppclient.so
-vendor/lib64/libvpphcp.so
-vendor/lib64/libvpphvx.so
-vendor/lib64/libvppimmotion.so
-vendor/lib64/libvpplibrary.so
-vendor/lib64/libvpptestutils.so
-vendor/lib64/vendor.qti.hardware.vpp@2.0.so
+# VPP - OOS
+vendor/lib64/vendor.qti.hardware.vpp@2.0.so|4b3435de9ec5cbc94c098deff353f6467c0048d7
 
 # VPU - OOS
 vendor/firmware/vpu20_1v.b01|ef0e11b8be593d622fff5987b8d8f98cbbe80186
