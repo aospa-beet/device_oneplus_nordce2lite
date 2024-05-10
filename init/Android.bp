@@ -32,22 +32,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.oplus.charging.rc",
-    src: "init.oplus.charging.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.oplus.display.rc",
     src: "init.oplus.display.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.oplus.overlay.rc",
-    src: "init.oplus.overlay.rc",
     sub_dir: "init",
     vendor: true,
 }
@@ -62,13 +48,6 @@ prebuilt_etc {
 prebuilt_etc {
     name: "init.oplus.telephony.rc",
     src: "init.oplus.telephony.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.oplus.touch.rc",
-    src: "init.oplus.touch.rc",
     sub_dir: "init",
     vendor: true,
 }
