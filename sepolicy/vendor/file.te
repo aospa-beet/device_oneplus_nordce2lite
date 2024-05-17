@@ -1,12 +1,6 @@
-# Alert Slider
-type vendor_proc_tri_state_key, fs_type, proc_type;
-
 # Camera
 type vendor_persist_camera_file, file_type;
 type vendor_proc_flash, fs_type, proc_type;
-
-# Charging
-type vendor_proc_wireless, fs_type, proc_type;
 
 # Display
 type vendor_proc_display, fs_type, proc_type;
