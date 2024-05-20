@@ -204,7 +204,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml
 
 PRODUCT_PACKAGES += \
-    android.hardware.sensors-service.nordce2lite-multihal \
+    android.hardware.sensors-service.multihal \
     libsensorndkbridge
 
 # Shipping API
