@@ -149,6 +149,15 @@ PRODUCT_PACKAGES += \
     NordCE2LiteSettingsProvider \
     NordCE2LiteSystemUI
 
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.sensor.pickup=android.sensor.tilt_detector \
+    ro.sensor.pickup.value=0 \
+    ro.sensor.proximity=true
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
