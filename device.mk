@@ -101,10 +101,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
-# HIDL
-PRODUCT_PACKAGES += \
-    android.hidl.memory.block@1.0.vendor
-
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.default:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.default
@@ -124,10 +120,6 @@ PRODUCT_PACKAGES += \
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
-
-# NFC
-PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.2.vendor
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -220,10 +212,6 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Storage
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
-# System Helper
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.systemhelper@1.0.vendor
 
 # Thermal
 PRODUCT_PACKAGES += \
