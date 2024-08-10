@@ -3,24 +3,24 @@
 ## Sections labeled with 'OOS' are
 ## on latest OxygenOS which is 14.0.0.600(EX01) at present.
 
-# ADSPRPC
-vendor/bin/adsprpcd
-vendor/bin/cdsprpcd
-vendor/bin/dspservice
-vendor/bin/loadalgo
-vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
-vendor/etc/init/vendor.qti.cdsprpc-service.rc
-vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
-vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libcdsprpc.so
-vendor/lib64/libloadalgo_stub.so
-vendor/lib64/libmdsprpc.so
-vendor/lib64/libsdsprpc.so
-vendor/lib64/libsysmon_cdsp_skel.so
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so
+# ADSPRPC - OOS
+vendor/bin/adsprpcd|e97a90171313051e2994d1a3d0985de59f586788
+vendor/bin/cdsprpcd|826ca230a88d59d0e68e4ad6090b5109e3dee632
+vendor/bin/dspservice|c90e78bc6c7765b6c43409c62cc3c5d61c0132c6
+vendor/bin/loadalgo|aeea2621c21465a4cdacbc718b324a24ee547409
+vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc|8f0eb84d3eb5fc0f683ef7b975b75044d56f513e
+vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib64/libadsp_default_listener.so|d01f85011cb2a182fd6a91d0c3e159f3d9f661c1
+vendor/lib64/libadsprpc.so|0dd3eac7afcd18b054deeb16b49811e9ea099cd7
+vendor/lib64/libcdsp_default_listener.so|63a7093e7f49e5afeadaa331474580d0bc8b89de
+vendor/lib64/libcdsprpc.so|0ba2d9779427c804955c3dee472912f46fb2f757
+vendor/lib64/libloadalgo_stub.so|db48bfdbc1bdac2c44122e6910e752983dce10c5
+vendor/lib64/libmdsprpc.so|22b5749e1cf97af17aef91e047b8177b2f61a1e3
+vendor/lib64/libsdsprpc.so|63d41a7a90e008f8cf6a94c4ae136976782e2518
+vendor/lib64/libsysmon_cdsp_skel.so|5bebbfec7f7be116e162d0982abb05c7562d2d13
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|fea412929a1f2a079d2af7e5b36581c76d784958
 
 # ADSP modules - OOS
 odm/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so|7e277db82033900d2664ddfa2e4a3d151546511b
@@ -74,10 +74,10 @@ vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3c
 
 # Adreno - OOS
 vendor/firmware/a615_zap.b00|55c1a14a5699d05f796a982448711159f8208951
-vendor/firmware/a615_zap.b01|2d9ff628bb2abcce764e4b91271e7feb0f874776
+vendor/firmware/a615_zap.b01|215e973fe08e710195bca223f62309cc948f18fe
 vendor/firmware/a615_zap.b02|4ae54047f9629f2470a5d58f3940c5eb51298b96
-vendor/firmware/a615_zap.elf|59962336118a79da7369290875be9d63cc113b2a
-vendor/firmware/a615_zap.mdt|7b9a003426e9060ace7e935b4a7fd239783d1ea3
+vendor/firmware/a615_zap.elf|b623173dddf5e225d5da7c9ab267615e22922d75
+vendor/firmware/a615_zap.mdt|19c5fb67994435b240e0af28e9df8a30504faa91
 vendor/firmware/a619_gmu.bin|0c211ef8a3246d649a4ae52a926d128b61e3c264
 vendor/firmware/a630_sqe.fw|3e38a62bdb02bd3db36ff0350bf3fd840324b3ad
 
@@ -191,13 +191,13 @@ vendor/lib64/soundfx/libshoebox.so|89e9ae5e8b939de847580636860058c5c60afcc1
 vendor/lib64/vendor.qti.voiceprint@1.0.so|065739e8d05515fa4c4aea3d8f3c66beaa3b7a9a
 
 # Audio Configs - OOS
-my_product/etc/audio_policy_configuration.xml:vendor/etc/audio/audio_policy_configuration.xml
-my_product/etc/audio_policy_volumes.xml:vendor/etc/audio/audio_policy_volumes.xml
-my_product/etc/default_volume_tables.xml:vendor/etc/audio/default_volume_tables.xml
-odm/etc/audio_platform_info.xml:vendor/etc/audio_platform_info_intcodec.xml
-odm/etc/sound_trigger_mixer_paths.xml:vendor/etc/sound_trigger_mixer_paths.xml
-odm/etc/sound_trigger_platform_info.xml:vendor/etc/sound_trigger_platform_info.xml
-vendor/etc/audio_io_policy.conf
+my_product/etc/audio_policy_configuration.xml:vendor/etc/audio/audio_policy_configuration.xml|dcf6c38773dad1694f581ca3febd21f172c25e71
+my_product/etc/audio_policy_volumes.xml:vendor/etc/audio/audio_policy_volumes.xml|b91f11794cf54adee0b3b44850ce4cf2eee78621
+my_product/etc/default_volume_tables.xml:vendor/etc/audio/default_volume_tables.xml|78d7a5e2f22df17eba9ef9b15dc039f890e97e0a
+odm/etc/audio_platform_info.xml:vendor/etc/audio_platform_info_intcodec.xml|c88c590604f14b34ea1d5cac71f1022cdaeb7570
+odm/etc/sound_trigger_mixer_paths.xml|e68a19f6dff2ef9f2b5d581f29cb80b9fc5891e3
+odm/etc/sound_trigger_platform_info.xml|0bfaf5f369960b9b54773fd0907d7f049c61417f
+vendor/etc/audio_io_policy.conf|91480f0c20cb0920e9b3f5745cc4ee87d72f9304
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -232,6 +232,7 @@ vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
+vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
@@ -997,8 +998,8 @@ odm/lib64/camera/fdconfigvideo.bin|c3303efadaa16495aee7e508a07f9000a435e8a2
 odm/lib64/camera/fdconfigvideolite.bin|2d4648c313fa28fb83272f39ad64fd3bd0ff826d
 odm/lib64/hwconfigurationutiltest|34c5930b46ae9b11af1037b9edfb6e808fcbae2f
 odm/lib64/lib2DSlender.so|745513de56eb99e59e196153af1e094e6b55f97c
-odm/lib64/libAlgoInterface.so|198f3d42de95f2b8e0f9baf060258474d45be920
-odm/lib64/libAlgoProcess.so|dba484ba06d73d436914d3481e913f8b276b8cde
+odm/lib64/libAlgoInterface.so|789d2d6038c3be9127409d54d7f1f337e3aaa06a
+odm/lib64/libAlgoProcess.so|c19a4b8ae719e7ff8b8ce7ce3bd59595a876fbb1
 odm/lib64/libAncFilter.so|3d227c96ed1fba725b3da5f377be8f067421cf7c
 odm/lib64/libAncHumBokeh.so|383fe8a1452b67fe3f6f795cf89e6cde1a30e980
 odm/lib64/libAncHumBokehPost.so|19ae428afa743b22a52d631fe908c098185fb006
@@ -1026,7 +1027,7 @@ odm/lib64/libPerfectlyClearCrux.so|aee168fa44e8ef142f6cc3bac389d53e060568e1
 odm/lib64/libPerfectlyClearCruxOpt.so|bb51740007c9836de2a55e5104c4105b2cc0c1c6
 odm/lib64/libPlatformValidatorShared.so|314ab2813dc805aeca28d2ff9975b99a619103f7
 odm/lib64/libPolarrRender.so|1f60b5c28b5a372ab2a1d2966f74273b9bd005a8
-odm/lib64/libPreviewDecisionOld.so|29ac9aed74848f1201c3a142cd1b8baa019b45a5
+odm/lib64/libPreviewDecisionOld.so|14652d3591f0bfcca29c679d9ddc32c6c74d6840
 odm/lib64/libSNPE.so|a58ec09272f2fb7e7cb97ec0a20013ffd4a444e0
 odm/lib64/libSNPE_G.so|11ba8cf9522ff49013cad25b229e2687fd1e0b3b
 odm/lib64/libSonyIMX471RmscLibrary.so|eee34c1f29a14e542d906e36712436c1d877023d
@@ -1239,8 +1240,8 @@ vendor/lib64/com.qualcomm.mcx.distortionmapper.so|4b302603e2208e157931b8b081f6a4
 vendor/lib64/com.qualcomm.mcx.linearmapper.so|785c149fe03b0a397752446168ebdbfd8d2a37c4
 vendor/lib64/com.qualcomm.mcx.policy.mfl.so|d929c867d837368677047617c9a01e1f0f327d9b
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so|f556033c03507534067902ddbdc913fd4ce8418a
-vendor/lib64/hw/camera.qcom.so|01a216f7045c4e70f3b8ec156d1bee94f002f113
-vendor/lib64/hw/com.qti.chi.override.so|4214080a4173805ed2260168eaa51e45429ed237
+vendor/lib64/hw/camera.qcom.so|1489e2df17d22f07477824f59e613507c0d271d8
+vendor/lib64/hw/com.qti.chi.override.so|08dc4db30dd59126bda2976fbc1d18f57beac123
 vendor/lib64/libOppoCentorStage.so|16eb5da5c607016d9a99426097479eeb753ffa62
 vendor/lib64/libRGBC.so|ced6aebc117b55f444e90caa689bdeb6d175c989
 vendor/lib64/libSonyIMX471RmscLibrary.so|eee34c1f29a14e542d906e36712436c1d877023d
@@ -1308,7 +1309,6 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
 # Connection Security
--vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
 vendor/bin/ssgqmigd
 vendor/bin/ssgtzd
 vendor/etc/init/ssgtzd.rc
@@ -1359,12 +1359,12 @@ vendor/bin/netmgrd|a3e44e88d6d2b9d7ca2bb408c8aac33093d3dc95
 
 # Data - OOS
 vendor/firmware/ipa_fws.b00|fa79d9f5d655ab0305ce6f42b5f326d1b3f81834
-vendor/firmware/ipa_fws.b01|0c28fbf35a36f0ba4e6ec59a2f7152d7e3cdbaf8
+vendor/firmware/ipa_fws.b01|ad6696233d762ec2244e93bee4ce60e5819e80bb
 vendor/firmware/ipa_fws.b02|cd418e2434a5698bf7a2f8844171f1b2ddd4b57a
 vendor/firmware/ipa_fws.b03|c07cfef57f8f694b4cee41e78700614efbedf2bc
 vendor/firmware/ipa_fws.b04|7aa0ec649f20af523f21c6e19014987f86f18dff
-vendor/firmware/ipa_fws.elf|9608dc5d023d842c2e187a9eb015fd7480945497
-vendor/firmware/ipa_fws.mdt|026a2db21acb731def727db776f2bf722d48324c
+vendor/firmware/ipa_fws.elf|68454d7ecc51c5355f01b73e9c646df59ee0d557
+vendor/firmware/ipa_fws.mdt|f76313427fa810a50712404d89814baf46f01923
 
 # Diag
 vendor/bin/diag-router
@@ -1383,12 +1383,12 @@ vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
 
 # Fingerprint - OOS
-odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service|ca54dcb511da787fcb1e9493b4d938a5e3a639ee
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service|8695ff2f15408ec8a1eb545ceb3652f7aa019089
 odm/bin/init.oplus.fingerprints.sh|950befd6f64d4055bf47ab066a0a1e0080e6191e
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc|5eead2eabcc060ce5d400a779f1e8482732b7012
 -odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml|78ca4f56ed1f5dd48c186718718fd9513629851e
 odm/lib64/anc.capacitive.hal.so|2fc2b44a08aae5200230646e1c420c5f1faaa141
-odm/lib64/anc.hal.so|0b2f1f140a4b86940b865c84d36e643ecc32a4a1
+odm/lib64/anc.hal.so|df244b8240894ee95d194c083c2ebc736717ca38
 odm/lib64/hw/fingerprint.goodix_G3.default.so|cc2db026878f5db3e409301446164275f940de6b
 odm/lib64/libgf_hal_G3.so|919fd469a1112cac6bf736e9ef31b0c9fa6806c2
 odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so|6e3b0bbf85420f5675cce2000e258f3f6192dd49
@@ -1462,11 +1462,9 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|9c631ca11d8be4a0d4fc36
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|26df2c5ff42d58456ebcd0fd7d0ba51f56a3f390
 
 # Keymaster
-vendor/bin/hw/android.hardware.authsecret@1.0-service-qti
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
-vendor/etc/init/android.hardware.authsecret@1.0-service-qti.rc
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
@@ -1474,7 +1472,6 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
-vendor/lib64/libspcom.so
 
 # Latency - OOS
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|3ad05ec2da50c1f96a9d4f8cafefe893d9377c65
@@ -1502,7 +1499,7 @@ vendor/etc/media_codecs.xml|659726c4e82f16aa2c95aab22b972374b8380d51
 vendor/etc/media_codecs_blair.xml|bf00803b3d421882a0bfdd6eb8c4f0dcf5ac6685
 vendor/etc/media_codecs_holi.xml|3c1de7c298505351c1137745a278781d51ba996a
 vendor/etc/media_codecs_performance.xml|d112c699a4ae74b5cd149506e6c338d6a5c24f47
-vendor/etc/media_codecs_performance_blair.xml|cf4250cec016a84efa3ce4672ea77b2a03e292be
+vendor/etc/media_codecs_performance_blair.xml|f732ca2bcf5893ae83de7c28676c891137de3c4c
 vendor/etc/media_codecs_performance_holi.xml|f9e2ec09f5fd7e1d2ef7fb12609e6d1b164c46cb
 vendor/etc/media_holi/video_system_specs.json|bfbe7cea5acdfa4677d3f0331fcf6053b0dbdeef
 vendor/etc/media_profiles.xml|981dd4a7ffb9020aa1142930ff3ae6d07bda12aa
@@ -1540,8 +1537,6 @@ vendor/etc/public.libraries.txt|c2e9cd1b7c8c71ef78fa72493e7768fecd748cbc
 # QCV - OOS
 vendor/bin/init.qti.qcv.sh|355a70cde39583a7f2a07441ba5ab1ed4d7feb18
 vendor/etc/init/init.qti.qcv.rc|1d0cff5660bdf7abc22ac2b960a0dcd88404d740
-vendor/lib64/libsoc_helper.so|1a76b2e9151c6bf3a0576999b4ca9fa2e65da6ed
-vendor/lib64/libsoc_helper_jni.so|e58ddb6b27e4d7fd215adbbd05165f1dccdd0f05
 
 # QMI - OOS
 vendor/bin/irsc_util|8adf704fb9fb74ac43a9217ddf29a2bcf249aa39
@@ -1620,21 +1615,21 @@ vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql|d349a4a52
 vendor/etc/seccomp_policy/qcrilnr@2.0.policy|59bf2408eede6b1ff5da4b1b5e1ac66f93d7060c
 vendor/lib64/deviceInfoServiceModuleNr.so|d734510c59cc2d86b4e57445d58588a8f28588ca
 vendor/lib64/liblqe.so|a077308b3954cf6eb3e23fecf78ca9284f2a20cc
-vendor/lib64/libqcrilNr.so|71fcad837124f7b94bea7583eea2ed09b83e37e8
-vendor/lib64/libqcrilNrFramework.so|3caa74af5a554604f4617f7b52e6918428d03bb1
+vendor/lib64/libqcrilNr.so|ceefe4ca42250f3d686561059bcdfbf0feae02b4
+vendor/lib64/libqcrilNrFramework.so|4df24fb9605e36429d555960235d9bc592ed2d76
 vendor/lib64/libqcrilNrLogger.so|56db3ad0e76a582c26ea6ad7d124d8cf8664f8b9
-vendor/lib64/libqcrilNrQtiBus.so|9240e3a1f1a2472764a414a02504f39f18568eb3
-vendor/lib64/libqcrilNrQtiMutex.so|451adc44807716b7b3d5e0327fbc7d74e53e0a26
+vendor/lib64/libqcrilNrQtiBus.so|acc318c16bc6491239e8226bfedc46b0df2ee4cd
+vendor/lib64/libqcrilNrQtiMutex.so|598f953839eb86c53713ceb8557fac2e50da6dd2
 vendor/lib64/libqcrildatactl.so|05aefb6a30598f81b094a0ba3086f02b852be50e
 vendor/lib64/libqcrildataqos.so|781e3905b8d88a54efc42e5548fd40b5bff2315a
-vendor/lib64/libril-db.so|9103d29ff0661cdad0703cd2d17149071df942b6
+vendor/lib64/libril-db.so|8104e58cbeec84ed804fe2875101ea2a2753a60e
 vendor/lib64/libril-qc-ltedirectdisc.so|ec8d8659bab666c34aa12032605ce990ff82607c
 vendor/lib64/libril-qc-radioconfig.so|8d73149b8dcd7503979de9c815760ec4c6d756fd
 vendor/lib64/librilqmimiscservices.so|bb3f1174ee053dc0410f3025d4d77c7202aea8a5
 vendor/lib64/librilqmiservices.so|ded498a452d742bfbdc8febec1412f71d28671e1
 vendor/lib64/qcrilMarshal.so|95f287c3b00c565fc623afd1fd147d6598eb0267
 vendor/lib64/qcrild_libqcrilnrutils.so|d5b13b93bf8a2e015928119ca49e7110907398c1
-vendor/lib64/qtiril-utils.so|895f26d5a362a0732eefb09b98c0e3671dac7e4e
+vendor/lib64/qtiril-utils.so|43a2accae6d9a83777b59203115654de82d6e676
 vendor/lib64/qtiwakelock.so|8fe13f7b1af6c985a509ab1e5a02b36665566d29
 vendor/lib64/vendor.qti.hardware.data.connection@1.0.so|4e2d689d6e55df68ef560d740cb9403d6e5fe364
 vendor/lib64/vendor.qti.hardware.data.connection@1.1.so|20515df9ef2e2b1a382147c7e1c4192f44c2d074
@@ -1802,7 +1797,6 @@ vendor/bin/hdcp2p2prov
 vendor/lib64/libhdcp1prov.so
 vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libhdcpsrm.so
-vendor/lib64/libspl.so
 
 # Soter
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
@@ -1814,10 +1808,6 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 # TFTP
 vendor/bin/tftp_server
 vendor/etc/init/vendor.qti.tftp.rc
-
-# TLOC
-vendor/bin/tloc_daemon
-vendor/etc/init/tloc_daemon.rc
 
 # Thermal
 vendor/bin/hw/vendor.qti.hardware.limits@1.0-service
