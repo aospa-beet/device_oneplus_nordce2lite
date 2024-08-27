@@ -1034,6 +1034,7 @@ odm/lib64/libmotionblur.so|08f941d977d5562dad2c5d35613edbf74d898e4c
 odm/lib64/libmpbase.so|0bded0d4b202799bb5584c4a0415050a64c5abab
 odm/lib64/libop-ai-beauty-body-detection.so|9f751bbb88e042c91b0f2ada06a7337de6e23db0
 odm/lib64/libop-ai-beauty-faceretouch-cn.so|8d309e9eddaec967e6945eea3e1c2dc476040bd8
+odm/lib64/liboplus-uah-client.so|dd3a0773ad67b9e869451ad8c4034501620f0909
 odm/lib64/liboplusblur_capture_api.so|9996dad87911e702cc20be671a7fed6f1a299a11
 odm/lib64/libormshalclient.so|39214c66b5e167a054dab333f9f777c26554ad66
 odm/lib64/libosenseaidlhalclient.so|daae077ebd421e4ca4f223c6c05b0104ce93d95c
@@ -1053,6 +1054,7 @@ odm/lib64/libwatermark_photo.so|d0e9c1ffe36f7bffcd103f49122913097f1b6517
 odm/lib64/libyuvwrapper.so|40042e3ef9e520e338791de0ee1e65241cdd2f43
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so|41a058468ad3002dffd6416a9d42734cd851c9da
 odm/lib64/vendor.oplus.hardware.orms@1.0.so|5cc13fd1ecc133ca53d44c5527bd364468b2ab3d
+odm/lib64/vendor.oplus.hardware.urcc-V1-ndk_platform.so|3f27c1bdd1252d964961a324b010fe3eae057771
 vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode|f0bd6f530922d25ad16fc1e54088834783c44f0c
 vendor/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode|c8149b903b87ad331e8210b0fd77cda86552e429
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode|eef93e7a568ba2cd0a3b3c954f50547182ca568d
