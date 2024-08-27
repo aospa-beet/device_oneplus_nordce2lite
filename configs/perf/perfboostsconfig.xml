@@ -34,7 +34,7 @@
             Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="blair"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF, 
                        0x40800100, 0xFFF, 0x41818000, 0xFF, 0x41800000, 0xFF, 0x40400000, 0x1, 
-                       0x42C10000, 0x1, 0x43400000, 0xFFFF, 0x4281C000, 2000" />
+                       0x42C10000, 0x1, 0x43400000, 0xFFFF, 0x4281C000, 2000, 0x42804000, 0" />
 
     <!--app resume boost-->
         <!-- SCHEDBOOST resource opcode, value-->
@@ -54,14 +54,14 @@
             Id="0x00001082" Type="1" Enable="true" Timeout="600" Target="blair"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF, 
                        0x40800100, 0xFFF, 0x41818000, 0xFF, 0x41800000, 0xFF, 0x40400000, 0x1, 
-                       0x42C10000, 0x1, 0x43400000, 0xFFFF, 0x4281C000, 2000" />     
+                       0x42C10000, 0x1, 0x43400000, 0xFFFF, 0x4281C000, 2000, 0x42804000, 0" />     
 
         <!-- Type="2", resume boost of 0.6sec -->
         <Config
             Id="0x00001082" Type="2" Enable="true" Timeout="600" Target="blair"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
                        0x40800100, 0xFFF, 0x41818000, 0xFF, 0x41800000, 0xFF, 0x40400000, 0x1,
-                       0x42C10000, 0x1, 0x43400000, 0xFFFF, 0x4281C000, 2000" />
+                       0x42C10000, 0x1, 0x43400000, 0xFFFF, 0x4281C000, 2000, 0x42804000, 0" />
 
     <!--app lauch boost (disabling packing)-->
         <!-- POWER COLLAPSE resource opcode, value-->
@@ -78,7 +78,7 @@
 
         <Config
             Id="0x00001081" Type="2" Enable="true" Timeout="1500" Target="blair"
-            Resources="0x40400000, 0x1, 0x42C10000, 0x1, 0x43010000, 59, 0x43400000, 0x2DC0, 0x4281C000, 1500" />
+            Resources="0x40400000, 0x1, 0x42C10000, 0x1, 0x43010000, 59, 0x43400000, 0x2DC0, 0x4281C000, 1500, 0x42804000, 0" />
 
     <!-- config_enableLaunchBoostv3-->
         <!-- SCHEDBOOST resource opcode, value-->
@@ -94,7 +94,7 @@
 
         <Config
             Id="0x00001081" Type="3" Enable="true" Timeout="15000" Target="blair"
-           Resources="0x40C00000, 0x3, 0x40C58000, 85, 0x40C54000, 100, 0x40408000, 0x5, 0x40C74000, 0xC0" />
+           Resources="0x40C00000, 0x3, 0x40C58000, 85, 0x40C54000, 100, 0x40408000, 0x5, 0x40C74000, 0xC0, 0x42804000, 2" />
 
      <!-- config_gameBoost-->
          <!-- SCHEDBOOST resource opcode, value-->
@@ -110,7 +110,7 @@
 
         <Config
             Id="0x00001081" Type="4" Enable="true" Timeout="15000" Target="blair"
-           Resources="0x40C00000, 0x3, 0x40C58000, 85, 0x40C54000, 100, 0x40408000, 0x5, 0x40C74000, 0xC0" />
+           Resources="0x40C00000, 0x3, 0x40C58000, 85, 0x40C54000, 100, 0x40408000, 0x5, 0x40C74000, 0xC0, 0x42804000, 0" />
 
      <!-- config_enableLaunchBoost6-->
         <!-- LPM_BIAS resource opcode, val ms-->
@@ -132,7 +132,8 @@
                        0x40C74000, 0xC0,
                        0x40C68000, 60, 0x40C68010, 60,
                        0x40800000, 1228,
-                       0x41448000, 20000" />
+                       0x41448000, 20000, 
+                       0x42804000, 2" />
 
     <!--app launch boost (attach application) -->
         <!-- SCHED_TASK_BOOST resource opcode, value-->
@@ -142,7 +143,7 @@
 
         <Config
             Id="0x00001081" Type="103" Enable="true" Timeout="2000" Target="blair"
-            Resources="0x40C80000, 0x0" />
+            Resources="0x40C80000, 0x0, 0x42804000, 0" />
 
     <!--Animation boost -->
         <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
@@ -157,7 +158,7 @@
         <Config
             Id="0x00001083" Enable="true" Timeout="400" Target="blair"
             Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
-                       0x40800100, 0xFFF" />
+                       0x40800100, 0xFFF, 0x42804000, 0" />
 
     <!--Vertical Scroll boost-->
         <!-- UCLAMP_BOOST -->
@@ -171,7 +172,7 @@
         <Config
             Id="0x00001080" Type="1" Enable="true"
             Resources="0x40CAC000, 30, 0x43010000, 0x26, 0x40800000, 2208, 0x40800100, 1516, 0x40C00000, 2,
-                      0x40C74000, 0xC0, 0x40408000, 0x27" />
+                      0x40C74000, 0xC0, 0x40408000, 0x27, 0x42804000, 2" />
 
     <!--Horizontal Scroll boost-->
         <!-- UCLAMP_BOOST -->
@@ -185,7 +186,7 @@
         <Config
             Id="0x00001080" Type="2" Enable="true"
             Resources="0x40CAC000, 30, 0x43010000, 0x26, 0x40800000, 2208, 0x40800100, 1516, 0x40C00000, 2,
-                       0x40C74000, 0xC0, 0x40408000, 0x27" />
+                       0x40C74000, 0xC0, 0x40408000, 0x27, 0x42804000, 2" />
 
     <!--Pre-Fling boost-->
         <!-- UCLAMP_BOOST -->
@@ -199,7 +200,7 @@
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="115"
             Resources="0x40CAC000, 30, 0x43010000, 0x26, 0x40800000, 2208, 0x40800100, 1516, 0x40C00000, 2,
-                       0x40C74000, 0xC0, 0x40408000, 0x27" />
+                       0x40C74000, 0xC0, 0x40408000, 0x27, 0x42804000, 2" />
 
     <!--MTP boost-->
         <!-- SCHEDBOOST resource opcode, value-->
