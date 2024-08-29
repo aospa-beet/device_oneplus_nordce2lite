@@ -137,6 +137,10 @@ PRODUCT_COPY_FILES += \
 # Platform
 TARGET_BOARD_PLATFORM := holi
 
+# Properties
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,odm.*.prop,$(LOCAL_PATH)/,$(TARGET_COPY_OUT_ODM)/etc)
+
 # QTEE
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qteeconnector.retrying_interval=30 \

@@ -17,3 +17,6 @@ persist.vendor.radio.poweron_opt=1
 persist.vendor.radio.stack_id_1=1
 ro.vendor.oplus.radio.project=2
 ro.vendor.oplus.radio.sar_regionmark=FCC
+
+# Variant specific props
+import /odm/etc/odm.${ro.boot.product.hardware.sku}.prop
