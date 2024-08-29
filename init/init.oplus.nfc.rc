@@ -1,0 +1,13 @@
+# Copyright (C) 2024 Paranoid Android
+#
+# SPDX-License-Identifier: Apache-2.0
+
+service nqnfc_2_0_hal_service /vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
+    class early_hal
+    user nfc
+    group nfc
+    override
+    disabled
+
+on property:ro.boot.product.hardware.sku=6
+    enable nqnfc_2_0_hal_service
