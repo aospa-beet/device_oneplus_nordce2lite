@@ -95,6 +95,7 @@ PRODUCT_PACKAGES += \
     charger_fw_fstab.qti \
     fstab.default \
     init.oplus.display.rc \
+    init.oplus.nfc.rc \
     init.oplus.sensors.rc \
     init.target.rc \
     ueventd.oplus.rc
@@ -115,6 +116,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Neural Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
+
+# NFC
+TARGET_NFC_SKU := 6
 
 # Overlays
 PRODUCT_PACKAGES += \
