@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-service nqnfc_2_0_hal_service /vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
     class early_hal
     user nfc
     group nfc
@@ -10,4 +10,4 @@ service nqnfc_2_0_hal_service /vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
     disabled
 
 on property:ro.boot.product.hardware.sku=6
-    enable nqnfc_2_0_hal_service
+    enable vendor.nfc_hal_service
