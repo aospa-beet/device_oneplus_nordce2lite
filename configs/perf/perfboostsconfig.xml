@@ -26,7 +26,7 @@
         <Config
             Id="0x00001081" Type="1" Enable="true" Timeout="2000"
             Resources="0x40CE0000, 0x00320028, 0x40804000, 0xFFF, 0x40804100, 0xFFF,
-                       0x40800000, 0xFFF, 0x40800100, 0xFFF" />
+                       0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x42804000, 0" />
 
 
     <!--app lauch boost (disabling packing)-->
@@ -51,7 +51,7 @@
         <!-- Type="3", FA launch boost of 15sec -->
         <Config
             Id="0x00001081" Type="3" Enable="true" Timeout="15000"
-           Resources="0x40C00000, 0x3, 0x40C58000, 85, 0x40C54000, 100, 0x40408000, 0x63" />
+           Resources="0x40C00000, 0x3, 0x40C58000, 85, 0x40C54000, 100, 0x40408000, 0x63, 0x42804000, 0" />
 
      <!-- config_gameBoost-->
          <!-- SCHEDBOOST resource opcode, value-->
@@ -62,7 +62,7 @@
          <!-- Type="4", FA launch boost of 15sec -->
         <Config
             Id="0x00001081" Type="4" Enable="true" Timeout="15000"
-           Resources="0x40C00000, 0x3, 0x40C58000, 85, 0x40C54000, 100, 0x40408000, 0x63" />
+           Resources="0x40C00000, 0x3, 0x40C58000, 85, 0x40C54000, 100, 0x40408000, 0x63, 0x42804000, 0" />
 
      <!-- config_enableLaunchBoost6-->
         <!-- LPM_BIAS resource opcode, val ms-->
@@ -91,7 +91,7 @@
         <Config
             Id="0x00001083" Enable="true" Timeout="400"
             Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
-                       0x40800100, 0xFFF" />
+                       0x40800100, 0xFFF, 0x42804000, 0" />
 
     <!--Vertical Scroll boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -100,11 +100,14 @@
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
         <!-- LPM Bias resource opcode, value-->
+        <!-- GPU_MIN_POWER_LEVEL resource opcode,value-->
+        <!-- SCHED_MIN_TASK_UTIL_FOR_COLOCATION, value-->
+        <!-- SCHED_MIN_TASK_UTIL_FOR_BOOST, value-->
         <!-- Type="1", Vertical Scroll boost -->
         <Config
             Id="0x00001080" Type="1" Enable="true"
             Resources="0x43010000, 0x26, 0x40800000, 2054, 0x40800100, 1516, 0x40C00000, 2,
-                      0x40C74000, 0xC0, 0x40408000, 0x27" />
+                      0x40C74000, 0xC0, 0x40408000, 0x27, 0x42804000, 2, 0x40C78000, 0, 0x40C7C000, 0" />
 
     <!--Horizontal Scroll boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -113,11 +116,14 @@
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
         <!-- LPM Bias resource opcode, value-->
+        <!-- GPU_MIN_POWER_LEVEL resource opcode,value-->
+        <!-- SCHED_MIN_TASK_UTIL_FOR_COLOCATION, value-->
+        <!-- SCHED_MIN_TASK_UTIL_FOR_BOOST, value-->
         <!-- Type="2", Horizontal Scroll boost -->
         <Config
             Id="0x00001080" Type="2" Enable="true"
             Resources="0x43010000, 0x26, 0x40800000, 2054, 0x40800100, 1516, 0x40C00000, 2,
-                       0x40C74000, 0xC0, 0x40408000, 0x27" />
+                       0x40C74000, 0xC0, 0x40408000, 0x27, 0x42804000, 2, 0x40C78000, 0, 0x40C7C000, 0" />
 
     <!--Pre-Fling boost-->
         <!-- Type="4", Pre-Fling boost -->
@@ -127,10 +133,13 @@
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
         <!-- LPM Bias resource opcode, value-->
+        <!-- GPU_MIN_POWER_LEVEL resource opcode,value-->
+        <!-- SCHED_MIN_TASK_UTIL_FOR_COLOCATION, value-->
+        <!-- SCHED_MIN_TASK_UTIL_FOR_BOOST, value-->
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="115"
             Resources="0x43010000, 0x26, 0x40800000, 2035, 0x40800100, 1478, 0x40C00000, 2,
-                       0x40C74000, 0xC0, 0x40408000, 0x27" />
+                       0x40C74000, 0xC0, 0x40408000, 0x27, 0x42804000, 2, 0x40C78000, 0, 0x40C7C000, 0" />
 
     <!--MTP boost-->
         <!-- SCHEDBOOST resource opcode, value-->
